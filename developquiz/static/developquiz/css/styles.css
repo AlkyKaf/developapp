@@ -1,0 +1,267 @@
+:root {
+  --font-color: rgb(0, 0, 0);
+}
+
+body,
+html {
+  background: #894383;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #894383, #746fc2);
+  background: -moz-linear-gradient(to top, #894383, #746fc2);
+  background: -o-linear-gradient(to top, #894383, #746fc2);
+  background: linear-gradient(to top, #894383, #746fc2);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.login_page {
+  padding: 30px 200px 15px 200px;
+}
+
+.login_form {
+  display: block;
+  background: rgba(0, 0, 0, 0.18);
+  padding: 2rem;
+
+  box-shadow: 0 0 10px, rgba(0, 0, 0, 0.3);
+  max-width: fit-content;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #fff;
+}
+
+.parent-div {
+  color: rgb(0, 0, 0);
+  display: flex;
+  padding: 10px 10px 15px 300px;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.centered-div {
+  color: rgb(0, 0, 0);
+  align-items: center;
+  margin-top: 1rem;
+  
+  width: 75%;
+  height: 10vh;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  font-size: large;
+  padding-top: 1rem;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  margin:0px auto 0px auto;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  margin:0px auto 0px auto;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 1em;
+}
+
+h4 {
+  color: #a34242;
+  font-family: Georgia, serif;
+}
+
+.termin {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  /* padding: 30px;  Отступ внутри контейнера */
+  background-color: #d057b28e; /* Цвет фона контейнера */
+  border-radius: 5px; /* Закругленные углы */
+  text-decoration: none;
+  color: black; /* Цвет текста */
+  width: 80%;
+  padding: 20px 10px 20px 20px;
+  margin-left: 5rem;
+  background: linear-gradient(180deg,#f2a1de8e, #ecbff0, #f5c5e98e, #8f4ff4);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+
+  margin-bottom: 5rem;
+  font-family: sans-serif;
+}
+
+@keyframes termin {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a {
+  text-decoration: none;
+  /*color: var(--font-color);*/
+  display: inline-block;
+  background-color: #602162; /* Цвет фона кнопки */
+  color: white; /* Цвет текста */
+  padding: 10px 10px; /* Отступы внутри кнопки */
+  margin: 1em 0; /* Отступы вокруг кнопки */
+}
+
+a:hover {
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  background: #ad6fc2;
+}
+
+.quiz-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.quiz-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px; /* Ширина контейнера */
+  padding: 10px; /* Отступ внутри контейнера */
+  background-color: #60216296; /* Цвет фона контейнера */
+  border-radius: 5px; /* Закругленные углы */
+  text-decoration: none;
+  color: rgb(255, 255, 255); /* Цвет текста */
+  width: 400px;
+  border: 3px rgba(11, 7, 14, 0.347) solid;
+  margin:0px auto 0px auto;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.resultat{
+  display: block;
+  align-items: center;
+  text-align: center;
+  border-radius: 2cm; 
+  text-decoration: none;
+  padding: 10px 10px 20px 20px;
+  background-color: #43174496;
+  margin:0px auto 0px auto;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px; /* Закругленные углы */
+  color: rgb(255, 255, 255); /* Цвет текста */
+  width: 400px;
+  border: 3px rgba(11, 7, 14, 0.347) solid;
+  margin: 0px auto 0px auto;
+  text-align: center;
+}
+
+
+.text-container {
+  flex: 1;
+}
+
+.image-container {
+  margin-left: 10px; /* Отступ слева от изображения */
+}
+
+.image-container img {
+  max-width: 50px; /* Максимальная ширина изображения */
+  max-height: 50px; /* Максимальная высота изображения */
+}
+
+.white-container {
+  padding: 10px;
+  background-color: rgb(101, 78, 127);
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.grey-container {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://png.pngtree.com/background/20230409/original/pngtree-clear-sky-white-clouds-blue-sky-background-picture-image_2375515.jpg')
+    center center fixed;
+  background-size: cover;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+button {
+  font-size: 0.9em;
+  color: #fff;
+  background: #602162;
+  outline: none;
+  border: 1px solid #4c194e;
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 1em 0;
+  letter-spacing: 4px;
+}
+
+button:hover {
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  background: #ad6fc2;
+}
+
+.submit {
+  padding: 15px;
+  margin-top: 3rem;
+}

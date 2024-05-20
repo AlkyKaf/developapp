@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="parent-div">
+        <div class="centered-div">
+            <div class="resultat">
+            <h3 class="title">Ваш результат</h3>
+            {% if count != 1 %}
+                Верно отвечено на {{ count }} вопроса из {{ total_count }}
+            {% else %}
+                Верно отвечено на {{ count }} вопрос из {{ total_count }}
+            {% endif %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
